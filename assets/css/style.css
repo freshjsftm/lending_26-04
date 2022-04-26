@@ -1,9 +1,16 @@
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Revalia', cursive; */
+/* font-family: 'Revalia', cursive; */
 
 :root{
   --accent-color: #34547A;
   --bg-color: #EEEFF1;
   --light-color: #FFFFFF;
   --dark-color: #000000;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  :root{
+    font-size: 16px;
+  }
 }
