@@ -1,2 +1,9 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Revalia', cursive; */
+
+:root{
+  --accent-color: #34547A;
+  --bg-color: #EEEFF1;
+  --light-color: #FFFFFF;
+  --dark-color: #000000;
+}
