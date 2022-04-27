@@ -1,0 +1,20 @@
+.about-title {
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.darb-blue {
+    background-color: var(--accent-color);
+
+}
+
+.projects {
+    padding-bottom: 6.25rem;
+    padding-top: 6.25rem;
+}
+
+.img-project {
+    height: 3.14rem;
+    padding: 0.5rem;
+
+}
