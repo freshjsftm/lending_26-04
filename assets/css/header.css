@@ -19,6 +19,9 @@
   overflow-x: scroll;
   white-space: nowrap;
 }
+.nav-list::-webkit-scrollbar{
+  display: none;
+}
 .nav-list-item{
   display: inline-block; 
 }
@@ -32,7 +35,11 @@
   color: var(--accent-color);
 }
 
-
+@media screen and (min-width: 576px){
+  .nav-list{
+    overflow-x: hidden;
+  }
+}
 @media screen and (min-width: 992px){
   .logo{
     text-align: left;
