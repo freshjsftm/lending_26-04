@@ -4,6 +4,7 @@
   --light-color: #FFFFFF;
   --dark-color: #000000;
   --text-color: #727272;
+  --row-visible-count: 2;
   font-size: 14px;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
@@ -36,8 +37,25 @@
   white-space: nowrap;
   text-overflow: ellipsis; 
 }
+
 @media screen and (min-width: 768px) {
   :root{
+    font-size: 15px;
+  }
+  .rows-overflow{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--row-visible-count);
+    max-height: calc(1.6rem*var(--row-visible-count));
+    overflow: hidden;  
+  }
+}
+@media screen and (min-width: 992px) {
+  :root{
     font-size: 16px;
+  }
+  .rows-overflow{
+    display: block;
+    overflow: visible;  
   }
 }
