@@ -39,23 +39,6 @@
   text-overflow: ellipsis; 
 }
 
-.about-user {
-  margin: 6.06rem 0 ;
-  display: block;
-  text-align: center;
-
-}
-.title-div{
-  font-size: 2rem;
-  font-weight: 500;
-}
-.p-div-about{
-  margin-top: 3.31rem;
-  text-align: center;
-  line-height: 1.6;
-  color:var(--text-color);
-  
-}
 
 
 @media screen and (min-width: 768px) {
