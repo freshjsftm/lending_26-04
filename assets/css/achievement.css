@@ -1,0 +1,6 @@
+.achievement{
+  width: 100%;
+  background-color: var(--accent-color);
+  height: 250px;
+}
+.achievement-wrapper{}
