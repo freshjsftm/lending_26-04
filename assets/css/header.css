@@ -1,9 +1,7 @@
 .navigation{
   background-color: var(--bg-color);
 }
-/* nav{
-  border: 1px solid red;
-} */
+
 .logo{
   display: block;
   padding: 0.5rem;

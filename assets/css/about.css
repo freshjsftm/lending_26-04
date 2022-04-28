@@ -1,0 +1,16 @@
+.about {
+  display: block;
+
+}
+.content-center {
+  margin: 3rem auto;
+  text-align: center;
+}
+.sub-hearding {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.about > *{
+  padding: 0 var(--indent-size);
+}
