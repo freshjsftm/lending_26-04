@@ -1,0 +1,25 @@
+:root {
+    font-size: 14px;
+}
+
+
+
+.img-work {
+    margin: 0 auto;
+    max-height: 37.5rem;
+    max-width: 46rem;
+    object-position: center;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+    :root {
+        font-size: 16px;
+
+    }
+
+    .img-work,
+    .work-img {
+        margin: 0 auto;
+    }
+}
