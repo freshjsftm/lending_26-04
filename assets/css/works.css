@@ -1,0 +1,14 @@
+
+.works{
+  display: flex;
+  min-height: 200px;
+  background-color: var(--accent-color);
+}
+..img-works{
+}
+.works-item{
+  display: inline-block;
+  color: var(--light-color);
+}
+.item{
+}
