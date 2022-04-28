@@ -1,14 +1,13 @@
-.text-block{
-  display: flex;
-  justify-content: center;
-}
+.text-block{}
 .sub-heading{
-  padding-top: 6rem;
+  margin-top: 6rem;
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
 }
 .content-center{
+  display: block;
+  margin: auto;
   text-align: center;
-  padding-bottom: 4rem;
+  margin-bottom: 6rem;
 }
