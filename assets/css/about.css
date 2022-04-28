@@ -1,3 +1,14 @@
+/* xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px */
+
+:root {
+    font-size: 14px;
+}
+
 .about-title {
     font-size: 2rem;
     padding-top: 3rem;
@@ -5,16 +16,22 @@
 
 .darb-blue {
     background-color: var(--accent-color);
-
 }
 
-.projects {
-    padding-bottom: 6.25rem;
-    padding-top: 6.25rem;
+.img-block {
+    display: inline-block;
+    padding: 3rem;
+    position: relative;
+    padding-left: 3rem;
 }
 
-.img-project {
-    height: 3.14rem;
-    padding: 0.5rem;
+.text-block {
+    /* font-size: 1.5rem; */
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    color: var(--light-color);
+    margin: auto;
+    text-align: left;
 
 }
