@@ -2,6 +2,7 @@
     font-size: 14px;
 }
 
+
 .line {
     position: relative;
     max-width: 27.8rem;
@@ -26,10 +27,12 @@
 
 .skill-list {
     padding-top: 3rem;
+
 }
 
 .user-photo {
-    padding-top: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     max-height: 28.1rem;
     width: 100%;
     object-position: center;
