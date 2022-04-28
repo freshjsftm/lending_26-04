@@ -1,17 +1,21 @@
 
 .about-user{
-    text-align: center;
-    margin: 6.06rem 0;
-    padding-left: 33rem;
+  
+  display: block;
+  text-align: center;
+    margin: 6.06rem auto;
+   
 }
-.title-div{
+h2{
   font-size: 2rem;
   font-weight: 500;
+  color: var(--text-color);
 }
 .p-div-about{
+  
   margin-top: 3.31rem;
   line-height: 1.6;
   color:var(--text-color);
- 
-  
+
+
 }
