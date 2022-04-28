@@ -15,6 +15,7 @@ xxl: 1400px */
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .row > * {
   padding: 0 var(--indent-size);

@@ -1,0 +1,19 @@
+.projects {
+  background-color: var(--accent-color);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icon-text-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.projects-text {
+  color: var(--light-color);
+}
