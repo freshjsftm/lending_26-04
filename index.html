@@ -1,12 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WD</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Revalia&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/about-me.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/projects.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <nav class="container">
+        <div class="row align-center">
+          <a href="#main" class="logo col-12 col-lg-3">wd</a>
+          <ul class="nav-list col-12 col-lg-9">
+            <li class="nav-list-item">
+              <a class="nav-list-item-link active" href="#main">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="#about">ОБ АВТОРЕ</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="">работы</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="">ПРОЦЕСС</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-item-link" href="">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="bg-full">
+      <section class="container main" id="main">
+        <div class="row">
+          <div class="col-12 col-md-2">
+            <div class="wrapper">
+              <div class="inner-wrapper">
+                <picture>
+                  <source srcset="./assets/images/laptop.webp" />
+                  <img
+                    class="main-img"
+                    src="./assets/images/laptop.png"
+                    alt="laptop"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+          <article class="col-12 col-md-6">
+            <h1 class="main-heading overflow">Дизайн и верстка</h1>
+            <p class="content rows-overflow">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              aspernatur commodi vero blanditiis modi accusantium perferendis
+              possimus facilis fugit reprehenderit?
+            </p>
+            <button class="btn overflow">НАПИСАТЬ МНЕ</button>
+          </article>
+        </div>
+      </section>
+    </div>
+    <section class="text-block">
+      <h2 class="text-block-title">Обо мне</h2>
+      <p>
+        Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
+        латинице с начала XVI века.
+      </p>
+    </section>
+
+    <div class="projects">
+      <section class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-2 icon-text-wrapper">
+            <img src="./assets/images/project-icon.png" alt="project-icon" />
+            <div class="projects-text"><p>40+ проектов</p></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 icon-text-wrapper">
+            <img src="./assets/images/project-icon.png" alt="project-icon" />
+            <div class="projects-text"><p>40+ проектов</p></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 icon-text-wrapper">
+            <img src="./assets/images/project-icon.png" alt="project-icon" />
+            <div class="projects-text"><p>40+ проектов</p></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 icon-text-wrapper">
+            <img src="./assets/images/project-icon.png" alt="project-icon" />
+            <div class="projects-text"><p>40+ проектов</p></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 icon-text-wrapper">
+            <img src="./assets/images/project-icon.png" alt="project-icon" />
+            <div class="projects-text"><p>40+ проектов</p></div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 icon-text-wrapper">
+            <img src="./assets/images/project-icon.png" alt="project-icon" />
+            <div class="projects-text"><p>40+ проектов</p></div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <h3 class="footer-name">Фамилия Имя</h3>
+      <p class="footer-right">(с) 2022. Все права защищены.</p>
+    </footer>
+  </body>
 </html>
