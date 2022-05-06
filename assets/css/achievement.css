@@ -1,0 +1,20 @@
+.achievement{
+  background-color: #34547A;
+  padding: 3rem;
+  margin: auto;
+}
+.achievement-img{
+  width: 50px;
+  height: 50px;
+}
+.description{
+  display: inline-block;
+  margin: 1rem 0.5rem;
+  transform: translateY(0.5rem);
+  color: white;
+}
+
+div > p +p{
+  padding-top: 0.5rem;
+  font-size: 0.8rem;
+}
