@@ -1,0 +1,13 @@
+.content{
+  margin: auto;
+  text-align: center;
+}
+h2{
+  margin: auto;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+p{
+  color: var(--text-color);
+  
+}
