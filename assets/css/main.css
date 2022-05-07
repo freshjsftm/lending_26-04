@@ -1,0 +1,33 @@
+.main{
+  text-align: center;
+}
+.wrapper{
+  width: 80%;
+  margin: auto;
+}
+.inner-wrapper{
+  padding-top: 80%;
+  position: relative;
+}
+.main-img{
+  display: block;
+  width: 100%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.main-heading{
+  /* padding-top: 3rem; */
+  font-weight: 500;
+  font-size: 3rem;
+}
+@media screen and (min-width: 768px){
+  .main{
+    text-align: left;
+  }
+  .main-heading{
+    padding-top: 0;
+  }
+}
