@@ -1,0 +1,47 @@
+:root {
+    font-size: 14px;
+}
+
+
+.line {
+    position: relative;
+    max-width: 27.8rem;
+    height: 0.25rem;
+    background-color: #c4c4c4;
+}
+
+.line::after,
+.line::before {
+    content: "";
+    position: absolute;
+    height: 0.25rem;
+    width: 21.8rem;
+    background-color: var(--accent-color);
+    left: 0;
+}
+
+.my-skill {
+    font-size: 2rem;
+    display: block;
+}
+
+.skill-list {
+    padding-top: 3rem;
+
+}
+
+.user-photo {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-height: 28.1rem;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+
+}
+
+.skill {
+    margin: 0;
+    padding-top: 10rem;
+    text-align: left;
+}
